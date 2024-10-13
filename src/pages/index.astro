@@ -1,16 +1,26 @@
 ---
-
+export const prerender = true;
 ---
 
 <html lang="en">
-	<head>
-		<meta charset="utf-8" />
-		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-		<meta name="viewport" content="width=device-width" />
-		<meta name="generator" content={Astro.generator} />
-		<title>Astro</title>
-	</head>
-	<body>
-		<h1>Astro</h1>
-	</body>
+  <head>
+    <meta charset="utf-8" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta name="viewport" content="width=device-width" />
+    <meta name="generator" content={Astro.generator} />
+    <title>Astro</title>
+  </head>
+  <body>
+    <div class="card">
+      <div class="card-content">
+        <p class="prose">
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quo aliquid
+          animi, officiis optio perferendis quia culpa dolore fuga consectetur
+          alias facilis atque nostrum sint ipsa voluptates aliquam cumque
+          quisquam natus.
+        </p>
+        <span class="badge badge-primary"> Badge </span>
+      </div>
+    </div>
+  </body>
 </html>
